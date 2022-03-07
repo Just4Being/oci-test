@@ -4,9 +4,9 @@ metadata:
   labels:
     app: nginx
   name: nginx-svc
-  namespace: default
 spec:
   ports:
+  - name: nginx
     port: 80
     protocol: TCP
     targetPort: 80
