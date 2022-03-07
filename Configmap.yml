@@ -1,12 +1,13 @@
 apiVersion: v1
+data:
+  index: |-
+    <html>
+    <body>
+    yo yo!
+    </body>
+    </html>
 kind: ConfigMap
 metadata:
-  name: index-html-configmap
+  creationTimestamp: '2020-01-16T12:53:25Z'
+  name: index-for-nginx
   namespace: default
-data:
-  index.html: |
-    <html>
-    <h1>Welcome</h1>
-    </br>
-    <h1>Test </h1>
-    </html>
