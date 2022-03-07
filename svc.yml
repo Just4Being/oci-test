@@ -7,10 +7,9 @@ metadata:
   namespace: default
 spec:
   ports:
-  - nodePort: 32135
-    port: 81
+    port: 80
     protocol: TCP
-    targetPort: 81
+    targetPort: 80
   selector:
     app: nginx
-  type: NodePort
+  type: ClusterIP
