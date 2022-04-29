@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: 9821778121/test:0.1
         name: nginx
         volumeMounts:
             - name: nginx-index-file
